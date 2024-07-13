@@ -1,0 +1,96 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    color: white;
+}
+nav{
+  display: flex;
+height: auto;
+  background:black;
+  align-items: center;
+  justify-content: space-between;
+padding:0px 50px 0px 40px 
+}
+nav .logo{
+    
+    font-weight: 600;
+    text-shadow: 1px 1px 8px white;
+   
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav ul li{
+    padding: 0px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    transition: all 0.6 ease;
+    /* display: block; */
+}
+
+nav .manu-btn{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+nav #click{
+    display: none;
+}
+
+@media (max-width:800px){
+ /*   */
+    nav{
+  line-height: 80px;
+    }
+    .pp{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        top: 42px;
+        left: -100%;
+        background: black;
+        height: auto;
+        width: 100%;
+       flex-direction: column;
+       text-align: center;
+       padding: 60px;
+     
+    }
+    nav li:hover {
+         
+          border: 1px solid white;
+          border-left: none;
+          border-right: none;
+          border-top: none;
+          transition: 1s;
+    }
+    nav .manu-btn{
+        display: block;
+    }
+    #click:checked ~ ul{
+        display: block;
+        left: 0;
+        transition: 0.5s;
+    }
+    #click:checked ~.manu-btn i::before{
+content:"X";
+    }
+}
+
+@media (max-width:1079px){
+
+ .one{
+width: 100%;
+    } 
+
+
+}
