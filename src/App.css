@@ -94,3 +94,16 @@ width: 100%;
 
 
 }
+.vedio{
+
+position: relative;
+color: gray;
+}
+
+.vedioicone{
+    width: 30px;
+position: absolute;
+top: 50%; left: 50%;
+transform: translate(-50%,-50%);
+
+}

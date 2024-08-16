@@ -126,11 +126,11 @@ function App() {
               <p className="w-full text-fontcolor  font-bold mt-6 text-start">
                 Videos
               </p>
-              <div className="w-full relative">
+              <div className="w-full vedio">
                 <img src={vedio} />
 
                 <img
-                  class=" border font-extrabold text-white px-3 py-2 rounded absolute md:top-12 md:left-40  top-8 left-28 bg-transparent hover:bg-gray-300 object-cover "
+                  class="vedioicone border font-extrabold text-white px-3 py-2 rounded  bg-transparent hover:bg-gray-300 object-cover "
                   src={vediobtn2}
                 />
               </div>
