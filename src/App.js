@@ -139,6 +139,7 @@ function App() {
         </div>
       </section>
       <h6>tayyab</h6>
+      <h6>tayyab</h6>
     </div>
   );
 }
