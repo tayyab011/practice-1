@@ -138,9 +138,7 @@ function App() {
           </div>
         </div>
       </section>
-      <h6>tayyab</h6>
-      <h6>tayyab</h6>
-      <h6>hi</h6>
+     
     </div>
   );
 }
